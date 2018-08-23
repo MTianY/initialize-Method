@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TYPerson.h"
+#import "TYStudent.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+//        [TYPerson alloc];
+//        [TYPerson alloc];
+//        [TYPerson alloc];
+        
+        [TYStudent alloc];
+        
+        
     }
     return 0;
 }
