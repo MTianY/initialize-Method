@@ -14,6 +14,9 @@
 		4CA27664212F6E3E009F9332 /* TYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA27663212F6E3E009F9332 /* TYStudent.m */; };
 		4CA27667212F6E4D009F9332 /* TYStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA27666212F6E4D009F9332 /* TYStudent+Test1.m */; };
 		4CA2766A212F6E53009F9332 /* TYStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA27669212F6E53009F9332 /* TYStudent+Test2.m */; };
+		4CA27670213143EA009F9332 /* TYZhangSan.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2766F213143EA009F9332 /* TYZhangSan.m */; };
+		4CA27673213143F5009F9332 /* TYZhangSan+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA27672213143F5009F9332 /* TYZhangSan+Test1.m */; };
+		4CA27676213143FC009F9332 /* TYZhangSan+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA27675213143FC009F9332 /* TYZhangSan+Test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +46,12 @@
 		4CA27666212F6E4D009F9332 /* TYStudent+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TYStudent+Test1.m"; sourceTree = "<group>"; };
 		4CA27668212F6E53009F9332 /* TYStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYStudent+Test2.h"; sourceTree = "<group>"; };
 		4CA27669212F6E53009F9332 /* TYStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TYStudent+Test2.m"; sourceTree = "<group>"; };
+		4CA2766E213143EA009F9332 /* TYZhangSan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYZhangSan.h; sourceTree = "<group>"; };
+		4CA2766F213143EA009F9332 /* TYZhangSan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYZhangSan.m; sourceTree = "<group>"; };
+		4CA27671213143F5009F9332 /* TYZhangSan+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYZhangSan+Test1.h"; sourceTree = "<group>"; };
+		4CA27672213143F5009F9332 /* TYZhangSan+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TYZhangSan+Test1.m"; sourceTree = "<group>"; };
+		4CA27674213143FC009F9332 /* TYZhangSan+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYZhangSan+Test2.h"; sourceTree = "<group>"; };
+		4CA27675213143FC009F9332 /* TYZhangSan+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TYZhangSan+Test2.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +97,12 @@
 				4CA27666212F6E4D009F9332 /* TYStudent+Test1.m */,
 				4CA27668212F6E53009F9332 /* TYStudent+Test2.h */,
 				4CA27669212F6E53009F9332 /* TYStudent+Test2.m */,
+				4CA2766E213143EA009F9332 /* TYZhangSan.h */,
+				4CA2766F213143EA009F9332 /* TYZhangSan.m */,
+				4CA27671213143F5009F9332 /* TYZhangSan+Test1.h */,
+				4CA27672213143F5009F9332 /* TYZhangSan+Test1.m */,
+				4CA27674213143FC009F9332 /* TYZhangSan+Test2.h */,
+				4CA27675213143FC009F9332 /* TYZhangSan+Test2.m */,
 			);
 			path = initialize;
 			sourceTree = "<group>";
@@ -154,7 +169,10 @@
 				4CA27653212F679A009F9332 /* main.m in Sources */,
 				4CA2765B212F6961009F9332 /* TYPerson.m in Sources */,
 				4CA2765E212F6984009F9332 /* TYPerson+Test1.m in Sources */,
+				4CA27673213143F5009F9332 /* TYZhangSan+Test1.m in Sources */,
+				4CA27670213143EA009F9332 /* TYZhangSan.m in Sources */,
 				4CA2766A212F6E53009F9332 /* TYStudent+Test2.m in Sources */,
+				4CA27676213143FC009F9332 /* TYZhangSan+Test2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

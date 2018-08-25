@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "TYPerson.h"
 #import "TYStudent.h"
+#import "TYZhangSan.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -17,7 +18,10 @@ int main(int argc, const char * argv[]) {
 //        [TYPerson alloc];
 //        [TYPerson alloc];
         
-        [TYStudent alloc];
+//        [TYStudent alloc];
+        
+        [TYZhangSan alloc];
+//        [TYZhangSan alloc];
         
         
     }

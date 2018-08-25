@@ -1,14 +1,14 @@
 //
-//  TYStudent+Test1.m
+//  TYZhangSan.m
 //  initialize
 //
-//  Created by 马天野 on 2018/8/24.
+//  Created by 马天野 on 2018/8/25.
 //  Copyright © 2018年 Maty. All rights reserved.
 //
 
-#import "TYStudent+Test1.h"
+#import "TYZhangSan.h"
 
-@implementation TYStudent (Test1)
+@implementation TYZhangSan
 
 //+ (void)initialize {
 //    NSLog(@"%s",__func__);

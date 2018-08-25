@@ -10,8 +10,8 @@
 
 @implementation TYStudent
 
-+ (void)initialize {
-    NSLog(@"%s",__func__);
-}
+//+ (void)initialize {
+//    NSLog(@"%s",__func__);
+//}
 
 @end
