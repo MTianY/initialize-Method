@@ -38,7 +38,7 @@
 
 - 当`[TYPerson alloc]`执行的时候,其本质就是`objc_msgSend([TYPerson class],@selector(alloc))`.
 - 那么首先就会通过`TYPerson`类的 `isa指针`去其`元类`对象的`类方法列表`中找`alloc`方法.
-- 因为有分类的存在,并且分类中也实现了`initialize`方法,因为分类的方法在运行时会别合并到类的方法列表中,并且后编译的分类的方法会被优先调用.
+- 因为有分类的存在,并且分类中也实现了`initialize`方法,因为分类的方法在运行时会被合并到类的方法列表中,并且后编译的分类的方法会被优先调用.
 - 所以,当找到`alloc`方法过程中,发现`TYPerson+Test1`中实现了`initialize`方法,所以将其调用.
 
 4.当给`TYPerson`发送多条消息的时候,如下
